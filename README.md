@@ -311,6 +311,7 @@ The service status and active jail were verified:
 sudo systemctl restart fail2ban
 sudo fail2ban-client status sshd
 ```
+
 The server is automatically protected against repeated unauthorized SSH login attempts and relevant events are available for monitoring and alerting within the SOC environment.
 ---
 
